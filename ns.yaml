@@ -4,3 +4,8 @@ metadata:
   name: jgw-test
   labels:
     cowgoes: moo
+    openshift-pipelines.tekton.dev/namespace-reconcile-version: 1.1.1
+    pod-security.kubernetes.io/audit: privileged-jgw
+    pod-security.kubernetes.io/audit-version: v1.21
+    pod-security.kubernetes.io/warn: privileged-jgw
+    pod-security.kubernetes.io/warn-version: v1.21
