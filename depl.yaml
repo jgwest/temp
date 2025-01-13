@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: my-depl
   labels:
-    hi: "hello-2"
+    hi: "hello-3"
 spec:
   replicas: 1
   selector:
