@@ -15,13 +15,14 @@ spec:
         app: test-argo-app
     spec:
       containers:
-      - image: gcr.io/google-samples/gb-frontend:v5   #modify
+      - image: gcr.io/google-samples/gb-frontend:v4   #modify
         name: webserver-simple
         ports:
         - containerPort: 8080
           name: http
           protocol: TCP
         resources: {}
+
 
 
 
