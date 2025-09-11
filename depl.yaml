@@ -15,12 +15,13 @@ spec:
         app: test-argo-app
     spec:
       containers:
-      - image: nginxinc/nginx-unprivileged@sha256:0569e319d06556564ad40882ed35231461d06bec788b5aec00b83b6e9f3ced1a   #modify
+      - image: gcr.io/google-samples/gb-frontend:v5   #modify
         name: webserver-simple
         ports:
         - containerPort: 8080
           name: http
           protocol: TCP
         resources: {}
+
 
 
